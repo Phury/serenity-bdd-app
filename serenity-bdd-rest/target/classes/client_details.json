@@ -1,0 +1,13 @@
+{
+	"id": 1,
+	"firstname": "Luke",
+	"lastname": "Skywalker",
+	"address": {
+		"streetNumber": "401",
+		"streetName": "king street west",
+		"postalCode": "m5v1k1",
+		"city": "toronto",
+		"province": "on",
+		"country": "canada"
+	}
+}

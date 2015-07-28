@@ -11,6 +11,8 @@
 	</parent>
 
 	<artifactId>serenity-bdd-core</artifactId>
+	<packaging>jar</packaging>
+		
 	<dependencies>
 	</dependencies>
 	

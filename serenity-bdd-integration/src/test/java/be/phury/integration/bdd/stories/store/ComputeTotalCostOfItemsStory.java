@@ -36,32 +36,4 @@ public class ComputeTotalCostOfItemsStory {
 	public void thenTheTotalCostShouldBetotal(@Named("total") String total) {
 		Assert.assertEquals(Price.parse(total), store.getTotal(goods));
 	}
-
-	
-//	
-//	@Given("that I sell the following fruit $exampleTable")
-//	public void givenThatISellTheFollowingFruit(ExamplesTable t) {
-//		for (Map$String, String row : t.getRows()) {
-//			store.addFruit(row.get("fruit"), row.get("price"));
-//		}
-//	}
-//
-//	@Given("I sell the following vegetables $exampleTable")
-//	public void givenISellTheFollowingVegetables(ExamplesTable t) {
-//		for (Map$String, String row : t.getRows()) {
-//			store.addVegetable(row.get("vegetable"), row.get("price"));
-//		}
-//	}
-//
-//	@When("I sell a good")
-//	public void whenISellAGood() {
-//		// nothing
-//	}
-//
-//	@Then("the total cost should be $exampleTable")
-//	public void thenTheTotalCostShouldBe(ExamplesTable t) {
-//		for (Map$String, String row : t.getRows()) {
-//			Assert.assertEquals(store.getTotal(row.get("goods")), Price.parse(row.get("total")));
-//		}
-//	}
 }

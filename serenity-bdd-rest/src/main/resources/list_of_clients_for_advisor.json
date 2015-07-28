@@ -1,0 +1,17 @@
+[
+{
+	"id": 1,
+	"firstname": "Luke",
+	"lastname": "Skywalker"
+},
+{
+	"id": 2,
+	"firstname": "Anakin",
+	"lastname": "Skywalker"
+},
+{
+	"id": 3,
+	"firstname": "Obiwan",
+	"lastname": "Kenobi"
+}
+]

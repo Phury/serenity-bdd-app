@@ -1,0 +1,13 @@
+{
+	"id": 1,
+	"firstname": "Boba",
+	"lastname": "Fett",
+	"address": {
+		"streetNumber": "550",
+		"streetName": "gerard street east",
+		"postalCode": "m4m1x6",
+		"city": "toronto",
+		"province": "on",
+		"country": "canada"
+	}
+}
